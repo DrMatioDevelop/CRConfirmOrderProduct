@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "569359671ECEDE1500A6D7EA"
-               BuildableName = "CRConfirmOrderProduct.framework"
-               BlueprintName = "CRConfirmOrderProduct"
+               BlueprintIdentifier = "569359761ECEDE2900A6D7EA"
+               BuildableName = "CRConfirmOrderProductDemo.app"
+               BlueprintName = "CRConfirmOrderProductDemo"
                ReferencedContainer = "container:CRConfirmOrderProduct.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "569359761ECEDE2900A6D7EA"
+            BuildableName = "CRConfirmOrderProductDemo.app"
+            BlueprintName = "CRConfirmOrderProductDemo"
+            ReferencedContainer = "container:CRConfirmOrderProduct.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "569359671ECEDE1500A6D7EA"
-            BuildableName = "CRConfirmOrderProduct.framework"
-            BlueprintName = "CRConfirmOrderProduct"
+            BlueprintIdentifier = "569359761ECEDE2900A6D7EA"
+            BuildableName = "CRConfirmOrderProductDemo.app"
+            BlueprintName = "CRConfirmOrderProductDemo"
             ReferencedContainer = "container:CRConfirmOrderProduct.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "569359671ECEDE1500A6D7EA"
-            BuildableName = "CRConfirmOrderProduct.framework"
-            BlueprintName = "CRConfirmOrderProduct"
+            BlueprintIdentifier = "569359761ECEDE2900A6D7EA"
+            BuildableName = "CRConfirmOrderProductDemo.app"
+            BlueprintName = "CRConfirmOrderProductDemo"
             ReferencedContainer = "container:CRConfirmOrderProduct.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

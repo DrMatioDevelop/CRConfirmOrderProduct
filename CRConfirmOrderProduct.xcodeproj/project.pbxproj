@@ -7,13 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4769BC69E40A3A2CF7A32EB0 /* libPods-CRConfirmOrderProductDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4263F7F7C6DFBACA65582C9 /* libPods-CRConfirmOrderProductDemo.a */; };
 		5693596D1ECEDE1500A6D7EA /* CRConfirmOrderProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 5693596B1ECEDE1500A6D7EA /* CRConfirmOrderProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5693597B1ECEDE2900A6D7EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693597A1ECEDE2900A6D7EA /* main.m */; };
+		5693597E1ECEDE2900A6D7EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693597D1ECEDE2900A6D7EA /* AppDelegate.m */; };
+		569359811ECEDE2900A6D7EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569359801ECEDE2900A6D7EA /* ViewController.m */; };
+		569359841ECEDE2900A6D7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569359821ECEDE2900A6D7EA /* Main.storyboard */; };
+		569359861ECEDE2900A6D7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569359851ECEDE2900A6D7EA /* Assets.xcassets */; };
+		569359891ECEDE2900A6D7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569359871ECEDE2900A6D7EA /* LaunchScreen.storyboard */; };
+		569359901ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.h in Headers */ = {isa = PBXBuildFile; fileRef = 5693598E1ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.h */; };
+		569359911ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693598F1ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.m */; };
+		569359921ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693598F1ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.m */; };
+		569359951ECEE6E000A6D7EA /* CRConfirmOrderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 569359931ECEE6E000A6D7EA /* CRConfirmOrderViewController.h */; };
+		569359961ECEE6E000A6D7EA /* CRConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569359941ECEE6E000A6D7EA /* CRConfirmOrderViewController.m */; };
+		569359971ECEE6E000A6D7EA /* CRConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569359941ECEE6E000A6D7EA /* CRConfirmOrderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D475E512EFC04E94254CDA1 /* Pods-CRConfirmOrderProductDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrderProductDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrderProductDemo/Pods-CRConfirmOrderProductDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		569359681ECEDE1500A6D7EA /* CRConfirmOrderProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRConfirmOrderProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5693596B1ECEDE1500A6D7EA /* CRConfirmOrderProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderProduct.h; sourceTree = "<group>"; };
 		5693596C1ECEDE1500A6D7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569359771ECEDE2900A6D7EA /* CRConfirmOrderProductDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRConfirmOrderProductDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5693597A1ECEDE2900A6D7EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5693597C1ECEDE2900A6D7EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5693597D1ECEDE2900A6D7EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5693597F1ECEDE2900A6D7EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		569359801ECEDE2900A6D7EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		569359831ECEDE2900A6D7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		569359851ECEDE2900A6D7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		569359881ECEDE2900A6D7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5693598A1ECEDE2900A6D7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5693598E1ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderServiceProvide.h; sourceTree = "<group>"; };
+		5693598F1ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderServiceProvide.m; sourceTree = "<group>"; };
+		569359931ECEE6E000A6D7EA /* CRConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderViewController.h; sourceTree = "<group>"; };
+		569359941ECEE6E000A6D7EA /* CRConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderViewController.m; sourceTree = "<group>"; };
+		86C3AA539ABB81A1AB9EE912 /* Pods-CRConfirmOrderProductDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrderProductDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrderProductDemo/Pods-CRConfirmOrderProductDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B4263F7F7C6DFBACA65582C9 /* libPods-CRConfirmOrderProductDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrderProductDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31252C1EEF483B97573CF1B /* libPods-CRConfirmOrderProduct.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrderProduct.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +55,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		569359741ECEDE2900A6D7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4769BC69E40A3A2CF7A32EB0 /* libPods-CRConfirmOrderProductDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				5693596A1ECEDE1500A6D7EA /* CRConfirmOrderProduct */,
+				569359781ECEDE2900A6D7EA /* CRConfirmOrderProductDemo */,
 				569359691ECEDE1500A6D7EA /* Products */,
+				B199BF936106B5AE48B8DADF /* Pods */,
+				D9FE8635943A7C1A3719D470 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				569359681ECEDE1500A6D7EA /* CRConfirmOrderProduct.framework */,
+				569359771ECEDE2900A6D7EA /* CRConfirmOrderProductDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +91,54 @@
 			children = (
 				5693596B1ECEDE1500A6D7EA /* CRConfirmOrderProduct.h */,
 				5693596C1ECEDE1500A6D7EA /* Info.plist */,
+				5693598E1ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.h */,
+				5693598F1ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.m */,
+				569359931ECEE6E000A6D7EA /* CRConfirmOrderViewController.h */,
+				569359941ECEE6E000A6D7EA /* CRConfirmOrderViewController.m */,
 			);
 			path = CRConfirmOrderProduct;
+			sourceTree = "<group>";
+		};
+		569359781ECEDE2900A6D7EA /* CRConfirmOrderProductDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5693597C1ECEDE2900A6D7EA /* AppDelegate.h */,
+				5693597D1ECEDE2900A6D7EA /* AppDelegate.m */,
+				5693597F1ECEDE2900A6D7EA /* ViewController.h */,
+				569359801ECEDE2900A6D7EA /* ViewController.m */,
+				569359821ECEDE2900A6D7EA /* Main.storyboard */,
+				569359851ECEDE2900A6D7EA /* Assets.xcassets */,
+				569359871ECEDE2900A6D7EA /* LaunchScreen.storyboard */,
+				5693598A1ECEDE2900A6D7EA /* Info.plist */,
+				569359791ECEDE2900A6D7EA /* Supporting Files */,
+			);
+			path = CRConfirmOrderProductDemo;
+			sourceTree = "<group>";
+		};
+		569359791ECEDE2900A6D7EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5693597A1ECEDE2900A6D7EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B199BF936106B5AE48B8DADF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D475E512EFC04E94254CDA1 /* Pods-CRConfirmOrderProductDemo.debug.xcconfig */,
+				86C3AA539ABB81A1AB9EE912 /* Pods-CRConfirmOrderProductDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9FE8635943A7C1A3719D470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31252C1EEF483B97573CF1B /* libPods-CRConfirmOrderProduct.a */,
+				B4263F7F7C6DFBACA65582C9 /* libPods-CRConfirmOrderProductDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5693596D1ECEDE1500A6D7EA /* CRConfirmOrderProduct.h in Headers */,
+				569359951ECEE6E000A6D7EA /* CRConfirmOrderViewController.h in Headers */,
+				569359901ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +175,26 @@
 			productReference = 569359681ECEDE1500A6D7EA /* CRConfirmOrderProduct.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		569359761ECEDE2900A6D7EA /* CRConfirmOrderProductDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5693598B1ECEDE2900A6D7EA /* Build configuration list for PBXNativeTarget "CRConfirmOrderProductDemo" */;
+			buildPhases = (
+				BF78C75CC0E21ED52EF2733E /* [CP] Check Pods Manifest.lock */,
+				569359731ECEDE2900A6D7EA /* Sources */,
+				569359741ECEDE2900A6D7EA /* Frameworks */,
+				569359751ECEDE2900A6D7EA /* Resources */,
+				6989523EE2B5504842617B36 /* [CP] Embed Pods Frameworks */,
+				74188C0C77F4D6485B268D8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRConfirmOrderProductDemo;
+			productName = CRConfirmOrderProductDemo;
+			productReference = 569359771ECEDE2900A6D7EA /* CRConfirmOrderProductDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +208,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					569359761ECEDE2900A6D7EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 569359621ECEDE1500A6D7EA /* Build configuration list for PBXProject "CRConfirmOrderProduct" */;
@@ -105,6 +220,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 5693595E1ECEDE1500A6D7EA;
 			productRefGroup = 569359691ECEDE1500A6D7EA /* Products */;
@@ -112,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				569359671ECEDE1500A6D7EA /* CRConfirmOrderProduct */,
+				569359761ECEDE2900A6D7EA /* CRConfirmOrderProductDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -124,17 +241,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		569359751ECEDE2900A6D7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569359891ECEDE2900A6D7EA /* LaunchScreen.storyboard in Resources */,
+				569359861ECEDE2900A6D7EA /* Assets.xcassets in Resources */,
+				569359841ECEDE2900A6D7EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6989523EE2B5504842617B36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrderProductDemo/Pods-CRConfirmOrderProductDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74188C0C77F4D6485B268D8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrderProductDemo/Pods-CRConfirmOrderProductDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF78C75CC0E21ED52EF2733E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		569359631ECEDE1500A6D7EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569359911ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.m in Sources */,
+				569359961ECEE6E000A6D7EA /* CRConfirmOrderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569359731ECEDE2900A6D7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569359811ECEDE2900A6D7EA /* ViewController.m in Sources */,
+				5693597E1ECEDE2900A6D7EA /* AppDelegate.m in Sources */,
+				569359971ECEE6E000A6D7EA /* CRConfirmOrderViewController.m in Sources */,
+				569359921ECEE5A200A6D7EA /* CRConfirmOrderServiceProvide.m in Sources */,
+				5693597B1ECEDE2900A6D7EA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		569359821ECEDE2900A6D7EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569359831ECEDE2900A6D7EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		569359871ECEDE2900A6D7EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569359881ECEDE2900A6D7EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5693596E1ECEDE1500A6D7EA /* Debug */ = {
@@ -267,6 +475,32 @@
 			};
 			name = Release;
 		};
+		5693598C1ECEDE2900A6D7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D475E512EFC04E94254CDA1 /* Pods-CRConfirmOrderProductDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRConfirmOrderProductDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyfsoftware163.CRConfirmOrderProductDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5693598D1ECEDE2900A6D7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C3AA539ABB81A1AB9EE912 /* Pods-CRConfirmOrderProductDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRConfirmOrderProductDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyfsoftware163.CRConfirmOrderProductDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -286,6 +520,16 @@
 				569359721ECEDE1500A6D7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5693598B1ECEDE2900A6D7EA /* Build configuration list for PBXNativeTarget "CRConfirmOrderProductDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5693598C1ECEDE2900A6D7EA /* Debug */,
+				5693598D1ECEDE2900A6D7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
