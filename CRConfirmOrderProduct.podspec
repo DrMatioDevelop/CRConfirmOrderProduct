@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name         = 'CRConfirmOrderProduct'
-    s.version      = '0.0.1'
-    s.summary      = '确认订单'
+    s.version      = '0.0.2'
+    s.summary      = '确认订单 '
     s.homepage     = 'https://github.com/DrMatioDevelop/CRConfirmOrderProduct'
     s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
     s.authors      = {'cyf' => 'cyfsoftware@126.com'}
